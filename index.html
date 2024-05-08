@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Z - Character Select</title>
+
+    <link rel="shortcut icon" href="./src/assets/favicon-dbz.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/fonts.css">
+    <link rel="stylesheet" href="./src/css/animations.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h1 class="header-title">
+                Charactero<span>Select Z</span>
+            </h1>
+        </header>
+        <section class="character-select">
+            <div class="character-p1">
+                <img src="./src/assets/goku-character.png" alt="Character Selected Player 1" class="character-image">
+                <div class="character-name">
+                    <h2 class="player1-character-name">Goku</h2>
+                </div>
+            </div>
+            <ul class="characters-list">
+                <li class="character selected" id="goku" data-name="Goku">
+                    <img src="./src/assets/goku.jpg" alt="Character Goku">
+                    <span>1P</span>
+                </li>
+                <li class="character" id="vegeta" data-name="Vegeta">
+                    <img src="./src/assets/vegeta.jpg" alt="Character Vegeta">
+                    <span>1P</span>
+                </li>
+                <li class="character" id="gohan" data-name="Gohan">
+                    <img src="./src/assets/gohan.jpg" alt="Character Gohan">
+                    <span>1P</span>
+                </li>
+                <li class="character" id="broly" data-name="Broly">
+                    <img src="./src/assets/broly.jpg" alt="Character Broly">
+                    <span>1P</span>
+                </li>
+                <li class="character" id="freeza" data-name="Freeza">
+                    <img src="./src/assets/freeza.jpg" alt="Character Freeza">
+                    <span>1P</span>
+                </li>
+                <li class="character player2-selected" id="goku-black" data-name="Goku Black">
+                    <img src="./src/assets/black.jpg" alt="Character Goku Black">
+                    <span class="p2">2P</span>
+                </li>
+                <li class="character" id="piccolo" data-name="Piccolo">
+                    <img src="./src/assets/piccolo.jpg" alt="Character Piccolo">
+                    <span>1P</span>
+                </li>
+                <li class="character" id="cell" data-name="Cell">
+                    <img src="./src/assets/cell.jpg" alt="Character Cell">
+                    <span>1P</span>
+                </li>
+                <li class="character" id="jiren" data-name="Jiren">
+                    <img src="./src/assets/jiren.jpg" alt="Character Jiren">
+                    <span>1P</span>
+                </li>
+            </ul>
+            <div class="character-p2">
+                <img src="./src/assets/black-character.png" alt="Character Selected Player 2" class="character-image">
+                <div class="character-name">
+                    <h2 class="player2-character-name">Goku Black</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./src/js/index.js"></script>
+</html>
