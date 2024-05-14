@@ -1,0 +1,117 @@
+@media (max-width: 1280px) {
+    .characters-list .character {
+        height: 150px;
+        width: 150px;
+    }
+
+    .characters-list .character img {
+        width: 100%;
+    }
+
+    .character-select .character-p1,
+    .character-select .character-p2 {
+        min-width: 400px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .characters-list .character {
+        height: 140px;
+        width: 140px;
+    }
+
+    .character-select .character-p1,
+    .character-select .character-p2 {
+        min-width: 300px;
+    }
+
+    .character-select .character-name {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 768px) {
+    body::before {
+        background: none;
+    }
+
+    main {
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    main::before {
+        content: "";
+        background: url(../assets/bg-dbz.jpg) center no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    .header .header-title {
+        margin: 30px 0;
+    }
+
+    .character-select {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .characters-list {
+        max-width: 600px;
+    }
+
+    .characters-list .character {
+        height: 100px;
+        width: 100px;
+    }
+
+    .character-select .character-p1,
+    .character-select .character-p2 {
+        margin-bottom: 80px;
+    }
+
+    .character-select .character-p2 {
+        margin-top: 40px;
+    }
+
+    .character-select .character-image {
+        height: 300px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header .header-title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header .header-title {
+        font-size: 45px;
+    }
+
+    .character-select .character-p1,
+    .character-select .character-p2 {
+        width: 350px;
+    }
+
+    .character-select .character-image {
+        height: 250px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header .header-title {
+        font-size: 40px;
+    }
+
+    .character-select .character-p1,
+    .character-select .character-p2 {
+        width: 300px;
+    }
+}
